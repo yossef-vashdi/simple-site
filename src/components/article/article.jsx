@@ -1,5 +1,5 @@
 import "./article.css";
-import logo from "../../img/testImg.jpeg";
+// import logo from "../../img/testImg.jpeg";
 
 function Article(props) {
   const { id, img, text, title } = props.content;
