@@ -10,7 +10,7 @@ function Article(props) {
 
       <pre className="articleText">
         {/* <img src={logo} alt="im img" className="articleImg" /> */}
-        <pre className="articleTitle">{title}</pre>
+        <p className="articleTitle">{title}</p>
         {text}
       </pre>
     </div>
