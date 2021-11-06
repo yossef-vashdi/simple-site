@@ -1,7 +1,7 @@
 [
   {
     "title": "Uploading a site - minimum requirements.",
-    "text": "In simple terms, it's all about the customer.\n\nfor me it was \n1. a template, Title + list of paragraphs containing information, with emphasis on design and content.\n- I didn't want to do cookie cutter template, and I didn't want to use dummy text, I want to fill my site with the things I find interest in. \n2. the text is generated from a Json file, I didn't want to write in to the elements directly (I will share my reasoning later).\n3. I chose English as a language, feel free to correct me on that and maybe give me some vucabulary/grammer tips.\n\n__________\n\nI love feedback, please dont spare it from me about anything, I'll be grateful.\n",
+    "text": "In simple terms, it's all about the customer.\n\nfor me it was \n1. a template, Title + list of paragraphs containing information, with emphasis on design and content.\n- I didn't want to do cookie cutter template, and I didn't want to use dummy text, I want to fill my site with the content I find interest in. \n2. the text is generated from a Json file, I didn't want to write in to the elements directly (I will share my reasoning later).\n3. I chose English as a language, feel free to correct me on that and maybe give me some vucabulary/grammer tips.\n\n__________\n\nI love feedback, please dont spare it from me about anything, I'll be grateful.\n",
     "img": "",
     "id": "3"
   }
