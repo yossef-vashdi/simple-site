@@ -1,12 +1,12 @@
 .article {
   border-radius: 0 0 10px 10px;
-  background-color: rgb(212, 195, 195, 0.3);
+  background-color: rgba(241, 236, 236, 0.4);
   min-height: 150px;
   max-width: 1200px;
   margin: 10px auto;
   font-size: 1.3em;
   font-weight: 700;
-  font-family: Georgia, "Times New Roman", Times, serif;
+
   padding: 8px 0;
 }
 
@@ -38,7 +38,6 @@
   clear: both;
   display: table;
 }
-.article:first-child {
-  margin-top: 170px;
-  /* background-color: black !important; */
+.article pre {
+  font-family: inherit;
 }
