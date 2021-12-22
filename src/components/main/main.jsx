@@ -31,7 +31,11 @@ function Main() {
             <li>renders the values</li>
           </ul>
         </div>
-        <a href="http://localhost:3000/form" target="_blank" rel="noreferrer">
+        <a
+          href={`${window.location.href}form`}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={require("../../img/form.jpg")} alt="form" />
           click to see
         </a>
@@ -53,7 +57,7 @@ function Main() {
           </ul>
         </div>
         <a
-          href="http://localhost:3000/back-end"
+          href={`${window.location.href}back-end`}
           target="_blank"
           rel="noreferrer"
         >
