@@ -1,0 +1,21 @@
+.back-end {
+  margin: 100px auto;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+  background-color: rgba(228, 228, 238, 0.8);
+  border-radius: 5px;
+}
+
+.back-end button {
+  padding: 4px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.back-end button:hover:enabled {
+  background-color: rgb(152, 116, 187);
+}

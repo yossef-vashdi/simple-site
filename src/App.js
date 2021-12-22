@@ -1,18 +1,29 @@
+// import Articles from "./components/articles/articlesList";
 import Main from "./components/main/main";
+import FormTesting from "./components/formTesting/formTesting";
+// import logo from "./logo.svg";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar/navbar";
-import About from "./components/about/about";
+import BackEnd from "./backEnd";
+
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Navbar />
+    <>
+      <img
+        className="site-background-image"
+        src={require("./img/beach.jpeg")}
+        alt=""
+      />
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/main" element={<Main />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/form" element={<FormTesting />} />
+          <Route path="/back-end" element={<BackEnd />} />
         </Routes>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+      {/* <FormTesting /> */}
+      {/* <Main />
+      <Articles /> */}
+    </>
   );
 }
 

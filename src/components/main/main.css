@@ -1,24 +1,58 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+.main-card {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  background-color: rgba(228, 228, 238, 0.8);
+  margin: 100px auto;
+  padding: 10px;
+  text-align: center;
+}
+.my-avatar {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-body {
-  position: relative;
-  min-height: 100vh;
+@media screen and (max-width: 510px) {
+  .main-card {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .articles {
+    flex-direction: column;
+  }
 }
-body::before {
-  content: "";
-  background: url("../../img/beach.jpeg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: absolute;
-  top: -30px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.7;
-  z-index: -1;
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  background-color: rgba(228, 228, 238, 0.8);
+  margin: 100px auto;
+  padding: 10px;
+  /* text-align: center; */
+}
+.articles img {
+  display: block;
+  margin: auto;
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+legend {
+  border-bottom: 2px solid black;
+  display: inline;
+  width: fit-content;
+}
+.articles a {
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 5px;
 }
