@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.css";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -34,7 +35,7 @@ function Main() {
         <a
           href={`${window.location.href}form`}
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           <img src={require("../../img/form.jpg")} alt="form" />
           click to see
@@ -59,7 +60,7 @@ function Main() {
         <a
           href={`${window.location.href}back-end`}
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           <img src={require("../../img/back end.jpg")} alt="back end" />
           click to see
